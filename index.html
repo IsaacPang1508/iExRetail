@@ -19,23 +19,76 @@
                 <img src="images/iExRetail Logo_White_ver_ai_OL.png" alt="iExRetail Logo">
             </a>
             <ul class="navbar-links">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#who">Who It's For</a></li>
-                <li><a href="#ai">AI Intelligence</a></li>
-                <li><a href="#howitworks">How It Works</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="nav-item has-dropdown">
+                    <a href="#features" class="nav-link">Platform <span class="nav-arrow">▾</span></a>
+                    <div class="nav-dropdown">
+                        <div class="dropdown-grid">
+                            <a href="#features" class="dropdown-item">
+                                <div class="di-icon">🗓️</div>
+                                <div><div class="di-title">Outlet Execution OS</div><div class="di-desc">Visit scheduling & task tracking</div></div>
+                            </a>
+                            <a href="#features" class="dropdown-item">
+                                <div class="di-icon">📊</div>
+                                <div><div class="di-title">Shelf & Display Audit</div><div class="di-desc">Compliance & photo proof</div></div>
+                            </a>
+                            <a href="#features" class="dropdown-item">
+                                <div class="di-icon">🤖</div>
+                                <div><div class="di-title">AI Visual Intelligence</div><div class="di-desc">Shelf photo analysis & SOS</div></div>
+                            </a>
+                            <a href="#features" class="dropdown-item">
+                                <div class="di-icon">👥</div>
+                                <div><div class="di-title">FieldForce Marketplace</div><div class="di-desc">On-demand verified workers</div></div>
+                            </a>
+                            <a href="#features" class="dropdown-item">
+                                <div class="di-icon">📱</div>
+                                <div><div class="di-title">O2O Activation</div><div class="di-desc">QR campaigns & lead capture</div></div>
+                            </a>
+                            <a href="#features" class="dropdown-item">
+                                <div class="di-icon">📈</div>
+                                <div><div class="di-title">Management Dashboard</div><div class="di-desc">Real-time insights & reports</div></div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item has-dropdown">
+                    <a href="#who" class="nav-link">Solutions <span class="nav-arrow">▾</span></a>
+                    <div class="nav-dropdown">
+                        <div class="dropdown-list">
+                            <a href="#who" class="dropdown-item-simple"><span class="dis-icon">🏭</span> FMCG Brands</a>
+                            <a href="#who" class="dropdown-item-simple"><span class="dis-icon">🏪</span> Retail Chains</a>
+                            <a href="#who" class="dropdown-item-simple"><span class="dis-icon">💊</span> Pharmacy Chains</a>
+                            <a href="#who" class="dropdown-item-simple"><span class="dis-icon">🚚</span> Distributors</a>
+                            <a href="#who" class="dropdown-item-simple"><span class="dis-icon">🤝</span> Merchandising Agencies</a>
+                            <a href="#who" class="dropdown-item-simple"><span class="dis-icon">🎯</span> Trade Marketing</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#ai" class="nav-link">AI Intelligence</a></li>
+                <li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
             </ul>
-            <a href="#contact" class="btn-red">Book a Demo</a>
+            <div class="navbar-right">
+                <a href="https://wa.me/60105677881" class="nav-wa" target="_blank">💬 WhatsApp</a>
+                <a href="#contact" class="btn-red nav-btn-cta">Book a Demo</a>
+            </div>
             <button class="hamburger" id="hamburger">☰</button>
         </div>
         <div class="mobile-menu" id="mob-menu">
-            <a href="#features" onclick="document.getElementById('mob-menu').classList.remove('open')">Features</a>
-            <a href="#who" onclick="document.getElementById('mob-menu').classList.remove('open')">Who It's For</a>
-            <a href="#ai" onclick="document.getElementById('mob-menu').classList.remove('open')">AI Intelligence</a>
-            <a href="#howitworks" onclick="document.getElementById('mob-menu').classList.remove('open')">How It Works</a>
-            <a href="#pricing" onclick="document.getElementById('mob-menu').classList.remove('open')">Pricing</a>
-            <a href="#contact" onclick="document.getElementById('mob-menu').classList.remove('open')">Contact</a>
+            <div class="mob-section">
+                <div class="mob-section-title">Platform</div>
+                <a href="#features" onclick="document.getElementById('mob-menu').classList.remove('open')">Outlet Execution OS</a>
+                <a href="#features" onclick="document.getElementById('mob-menu').classList.remove('open')">Shelf & Display Audit</a>
+                <a href="#features" onclick="document.getElementById('mob-menu').classList.remove('open')">AI Visual Intelligence</a>
+                <a href="#features" onclick="document.getElementById('mob-menu').classList.remove('open')">FieldForce Marketplace</a>
+                <a href="#features" onclick="document.getElementById('mob-menu').classList.remove('open')">O2O Activation</a>
+                <a href="#features" onclick="document.getElementById('mob-menu').classList.remove('open')">Management Dashboard</a>
+            </div>
+            <div class="mob-section">
+                <div class="mob-section-title">Company</div>
+                <a href="#ai" onclick="document.getElementById('mob-menu').classList.remove('open')">AI Intelligence</a>
+                <a href="#pricing" onclick="document.getElementById('mob-menu').classList.remove('open')">Pricing</a>
+                <a href="#contact" onclick="document.getElementById('mob-menu').classList.remove('open')">Contact</a>
+            </div>
+            <a href="#contact" class="btn-red mob-cta" onclick="document.getElementById('mob-menu').classList.remove('open')">Book a Demo</a>
         </div>
     </nav>
 
@@ -182,7 +235,6 @@
                             <div class="task-card"><div class="task-icon" style="background:rgba(52,211,153,0.15)">🏪</div><div class="task-info"><div class="task-name">AEON Bukit Tinggi</div><div class="task-sub">8/8 tasks · GPS verified</div></div><span class="task-badge tb-green">Done</span></div>
                             <div class="task-card"><div class="task-icon" style="background:rgba(56,189,248,0.15)">🏬</div><div class="task-info"><div class="task-name">Lotus's Kepong</div><div class="task-sub">4/8 tasks · In progress</div></div><span class="task-badge tb-blue">Active</span></div>
                             <div class="task-card"><div class="task-icon" style="background:rgba(251,191,36,0.15)">🏢</div><div class="task-info"><div class="task-name">Giant Cheras</div><div class="task-sub">0/6 tasks · Pending</div></div><span class="task-badge tb-amber">Pending</span></div>
-                            <div class="task-card"><div class="task-icon" style="background:rgba(248,113,113,0.15)">🏪</div><div class="task-info"><div class="task-name">99 Speedmart Ampang</div><div class="task-sub">Missed · No check-in</div></div><span class="task-badge tb-red">Missed</span></div>
                         </div>
                     </div>
                 </div>
@@ -450,35 +502,43 @@
             <div class="personas-grid">
                 <div class="persona-card fade-up">
                     <div class="persona-icon">🏭</div>
-                    <h4>FMCG Brands</h4>    
+                    <h4>FMCG Brands</h4>
+                    <p>Shelf compliance, OSA tracking & promo verification.</p>    
                 </div>
                 <div class="persona-card fade-up">
                     <div class="persona-icon">🏪</div>
                     <h4>Retail Chains</h4>
+                    <p>Consistent execution standards across all outlets.</p>
                 </div>
                 <div class="persona-card fade-up">
                     <div class="persona-icon">💊</div>
                     <h4>Pharmacy Chains</h4>
+                    <p>Product launches, health campaigns & planogram audits.</p>
                 </div>
                 <div class="persona-card fade-up">
                     <div class="persona-icon">🚚</div>
                     <h4>Distributors</h4>
+                    <p>Outlet visits, stock visibility & competitor monitoring.</p>
                 </div>
                 <div class="persona-card fade-up">
                     <div class="persona-icon">🏷️</div>
                     <h4>Brand Principals</h4>
+                    <p>Real-time execution proof & compliance scores.</p>
                 </div>
                 <div class="persona-card fade-up">
                     <div class="persona-icon">🤝</div>
                     <h4>Merchandising Agencies</h4>
+                    <p>Verified proof of performance for every client.</p>
                 </div>
                 <div class="persona-card fade-up">
                     <div class="persona-icon">📍</div>
                     <h4>Field Ops Teams</h4>
+                    <p>Check-in, task completion & photo capture in one app.</p>
                 </div>
                 <div class="persona-card fade-up">
                     <div class="persona-icon">🎯</div>
                     <h4>Trade Marketing</h4>
+                    <p>Campaign ROI, POSM deployment & promoter tracking.</p>
                 </div>
             </div>
         </div>
@@ -742,7 +802,7 @@
                 <p>Book a demo or request a proposal now. We'll show you how iExRetail can transform your field operations within weeks — not months.</p>
                 <div class="cta-btns">
                     <a href="https://wa.me/60105677881" class="btn-red" target="_blank">📅 Book a Free Demo</a>
-                    <a href="https://wa.me/60105677881" class="btn-whatsapp" target="_blank">💬 Talk to a Retail Expert</a>
+                    <a href="https://wa.me/60105677881" class="btn-whatsapp" target="_blank">💬 WhatsApp Us</a>
                 </div>
                 <div class="cta-detail">
                     <div class="cta-d"><span>✓</span> No long contracts</div>
@@ -754,76 +814,75 @@
         </div>
     </section>
 
-    <!-- CONTACT -->
-    <section class="contact" id="contact">
-        <div class="section-container">
-            <div class="contact-inner fade-up">
-                <div class="contact-text">
-                    <h2>Got questions? Let's talk.</h2>
-                    <p>WhatsApp us directly for demos, pricing or any enquiries. We respond fast.</p>
-                </div>
-                <a href="https://wa.me/60105677881" class="btn-whatsapp" target="_blank">WhatsApp Us</a>
-            </div>
-        </div>
-    </section>
 
     <!-- FOOTER -->
     <footer class="footer">
-        <div class="footer-main">
-            <div class="footer-col footer-col-wide">
-                <h4>About Our Company</h4>
-                <p class="footer-about">iExRetail is an AI-powered retail execution and field force management SaaS platform. We help brands, distributors and retail chains manage offline execution, verify shelf visibility and turn field activity into real commercial impact.</p>
-                <p class="footer-powered">A product by <span>iExpress</span> · Powered by <span>Interact</span></p>
-                <div class="footer-social">
-                    <a href="https://www.facebook.com/iExpress.my/" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
-                    <a href="https://www.instagram.com/iexpress.my" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
-                    <a href="https://wa.me/60105677881" target="_blank"><img src="images/whatsapp.png" alt="WhatsApp"></a>
-                    <a href="https://www.tiktok.com/@iexpress.my" target="_blank"><img src="images/tiktok.png" alt="TikTok"></a>
-                    <a href="https://www.youtube.com/@iExpressMY" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
-                    <a href="https://www.linkedin.com/company/iExpress" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+        <div class="footer-top">
+            <div class="footer-top-inner">
+                <div class="footer-brand">
+                    <a href="index.html"><img src="images/iExRetail Logo_White_ver_ai_OL.png" alt="iExRetail" class="footer-logo-img"></a>
+                    <p class="footer-tagline">AI-powered retail execution & field force management — built for Malaysian brands.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/iExpress.my/" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                        <a href="https://www.instagram.com/iexpress.my" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+                        <a href="https://wa.me/60105677881" target="_blank"><img src="images/whatsapp.png" alt="WhatsApp"></a>
+                        <a href="https://www.tiktok.com/@iexpress.my" target="_blank"><img src="images/tiktok.png" alt="TikTok"></a>
+                        <a href="https://www.youtube.com/@iExpressMY" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+                        <a href="https://www.linkedin.com/company/iExpress" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                    </div>
                 </div>
-                <div class="footer-brand-logos">
-                    <a href="https://www.iexpress.com.my/" target="_blank"><img src="images/iexpress_logo_white.png" alt="iExpress"></a>
-                    <a href="https://fulfillpoint.iexpress.my/" target="_blank"><img src="images/FulfillPoint-Logo.png" alt="FulfillPoint"></a>
+                <div class="footer-links-grid">
+                    <div class="footer-link-col">
+                        <h4>Platform</h4>
+                        <ul>
+                            <li><a href="#features">Outlet Execution OS</a></li>
+                            <li><a href="#features">Shelf & Display Audit</a></li>
+                            <li><a href="#features">AI Visual Intelligence</a></li>
+                            <li><a href="#features">FieldForce Marketplace</a></li>
+                            <li><a href="#features">O2O Activation</a></li>
+                            <li><a href="#features">Management Dashboard</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link-col">
+                        <h4>Solutions</h4>
+                        <ul>
+                            <li><a href="#who">FMCG Brands</a></li>
+                            <li><a href="#who">Retail Chains</a></li>
+                            <li><a href="#who">Pharmacy Chains</a></li>
+                            <li><a href="#who">Distributors</a></li>
+                            <li><a href="#who">Merchandising Agencies</a></li>
+                            <li><a href="#who">Trade Marketing</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#ai">AI Intelligence</a></li>
+                            <li><a href="#howitworks">How It Works</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#why">Why iExRetail</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link-col">
+                        <h4>Get in Touch</h4>
+                        <ul>
+                            <li><a href="mailto:info@iexpress.my">info@iexpress.my</a></li>
+                            <li><a href="tel:+60105677881">+60 10-567 7881</a></li>
+                            <li><a href="https://www.iexpress.com.my/" target="_blank">iexpress.com.my</a></li>
+                        </ul>
+                        <a href="https://wa.me/60105677881" class="footer-wa-btn" target="_blank">💬 WhatsApp Us</a>
+                    </div>
                 </div>
-            </div>
-            <div class="footer-col">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#who">Who It's For</a></li>
-                    <li><a href="#ai">AI Intelligence</a></li>
-                    <li><a href="#howitworks">How It Works</a></li>
-                    <li><a href="#fieldforce">FieldForce</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#why">Why Choose Us</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Our Features</h4>
-                <ul>
-                    <li><a href="#features">Outlet Execution OS</a></li>
-                    <li><a href="#features">Shelf & Display Audit</a></li>
-                    <li><a href="#features">AI Visual Intelligence</a></li>
-                    <li><a href="#features">FieldForce Marketplace</a></li>
-                    <li><a href="#features">O2O Marketing Activation</a></li>
-                    <li><a href="#features">Management Dashboard</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Connect With Us</h4>
-                <ul>
-                    <li><a href="mailto:info@iexpress.my">info@iexpress.my</a></li>
-                    <li><a href="tel:+60105677881">+60 10-567 7881</a></li>
-                    <li><a href="https://www.iexpress.com.my/" target="_blank">www.iexpress.com.my</a></li>
-                </ul>
-                <a href="https://wa.me/60105677881" class="btn-whatsapp footer-wa" target="_blank">WhatsApp Us</a>
             </div>
         </div>
         <div class="footer-bottom">
-            <div class="section-container">
-                <div class="footer-bottom-inner">
-                    <p>© 2025 iExRetail · Powered by iExpress & Interact · All rights reserved</p>
+            <div class="footer-bottom-inner">
+                <p>© 2025 iExRetail · All rights reserved</p>
+                <div class="footer-bottom-right">
+                    <span>A product by</span>
+                    <a href="https://www.iexpress.com.my/" target="_blank"><img src="images/iexpress_logo_white.png" alt="iExpress" class="footer-partner-logo"></a>
+                    <span class="footer-dot">·</span>
+                    <a href="https://fulfillpoint.iexpress.my/" target="_blank"><img src="images/FulfillPoint-Logo.png" alt="FulfillPoint" class="footer-partner-logo"></a>
                 </div>
             </div>
         </div>
