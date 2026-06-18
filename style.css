@@ -856,13 +856,15 @@ ul { list-style: none; }
     color: rgba(0,0,0,0.4);
 }
 .footer-partner-logo {
-    height: 18px;
     width: auto;
     filter: brightness(0);
-    opacity: 0.4;
+    opacity: 0.3;
     transition: opacity 0.2s;
     display: inline-block;
 }
+.footer-partner-logo:nth-child(1) { height: 24px; }
+.footer-partner-logo:nth-child(2) { height: 32px; }
+
 .footer-partner-logo:hover { opacity: 0.7; }
 .footer-dot { color: rgba(0,0,0,0.3); }
 
@@ -1061,11 +1063,18 @@ ul { list-style: none; }
     .contact-inner { flex-direction: column; text-align: center; padding: 28px 24px; }
 
     /* FOOTER */
-    .footer-main { grid-template-columns: 1fr; gap: 32px; padding: 40px 20px 28px; }
-    .footer-about { max-width: 100%; }
-    .footer-social { grid-template-columns: repeat(6,36px); }
-    .footer-brand-logos { flex-direction: row; align-items: center; gap: 16px; }
-    .footer-bottom-inner { padding: 0 20px; text-align: center; }
+    .footer-top { padding: 40px 0 32px; }
+    .footer-top-inner { grid-template-columns: 1fr; gap: 32px; padding: 0 20px; }
+    .footer-links-grid { grid-template-columns: 1fr 1fr; gap: 20px; }
+    .footer-link-col h4 { font-size: 11px; margin-bottom: 10px; }
+    .footer-link-col ul li a { font-size: 11px; }
+    .footer-tagline { max-width: 100%; }
+    .footer-logo-img { height: 24px; }
+    .footer-bottom { padding: 14px 0; }
+    .footer-bottom-inner { padding: 0 20px; flex-direction: column; gap: 10px; text-align: center; }
+    .footer-bottom-right { justify-content: center; flex-wrap: wrap; }
+    .footer-partner-logo:nth-child(1) { height: 20px; }
+    .footer-partner-logo:nth-child(2) { height: 28px; }
 
     /* MOBILE MENU */
     .mobile-menu { padding: 12px 20px 16px; }
@@ -1417,4 +1426,25 @@ ul { list-style: none; }
     .feat-title { font-size: 22px; }
     .feat-desc { font-size: 14px; }
     .phone { width: 240px; }
+}
+
+/* ===== FIX MOBILE OVERFLOW ===== */
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+.feat-row,
+.ff-inner,
+.why-inner,
+.sol-promise,
+.personas-grid,
+.pricing-grid,
+.ai-grid,
+.problem-grid,
+.hero-container,
+.section-container,
+.navbar-container,
+.footer-top-inner,
+.footer-bottom-inner {
+    max-width: 100%;
 }
