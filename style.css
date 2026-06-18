@@ -929,6 +929,7 @@ ul { list-style: none; }
 @media (max-width: 768px) {
     /* NAVBAR */
     .navbar-links { display: none; }
+    .navbar-right { display: none; }
     .hamburger { display: block; }
     .navbar-container { padding: 0 20px; }
     .navbar-logo img { height: 28px; }
@@ -1137,7 +1138,7 @@ ul { list-style: none; }
 
 .phone-wrap { display: flex; justify-content: center; align-items: center; }
 .phone {
-    width: 240px;
+    width: 280px;
     background: #0F172A;
     border-radius: 36px;
     border: 6px solid #1E293B;
@@ -1415,5 +1416,5 @@ ul { list-style: none; }
     .feat-row.reverse { direction: ltr; }
     .feat-title { font-size: 22px; }
     .feat-desc { font-size: 14px; }
-    .phone { width: 200px; }
+    .phone { width: 240px; }
 }

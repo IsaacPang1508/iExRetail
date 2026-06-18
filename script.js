@@ -47,7 +47,7 @@ const chartEl = document.querySelector('.bar-chart');
 if (chartEl) barObserver.observe(chartEl);
 
 // ===== GSAP HOW IT WORKS =====
-if (typeof gsap !== 'undefined' && document.querySelector('.howitworks')) {
+if (typeof gsap !== 'undefined' && document.querySelector('.howitworks') && window.innerWidth > 768) {
     gsap.registerPlugin(ScrollTrigger);
 
     const slides = document.querySelectorAll('.hiw-slide');
