@@ -80,20 +80,14 @@ ul { list-style: none; }
 
 /* ===== NAVBAR ===== */
 .navbar {
-    background: transparent;
-    border-bottom: 0.5px solid transparent;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    transition: background 0.3s, box-shadow 0.3s, border-color 0.3s;
-}
-.navbar.scrolled {
     background: #111010;
     border-bottom: 0.5px solid rgba(255,255,255,0.08);
-    box-shadow: 0 2px 24px rgba(0,0,0,0.4);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: box-shadow 0.3s;
 }
+.navbar.scrolled { box-shadow: 0 2px 24px rgba(0,0,0,0.4); }
 .navbar-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -257,7 +251,6 @@ ul { list-style: none; }
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 68px;
 }
 .saas-hero {
     background: linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)),
@@ -744,6 +737,7 @@ ul { list-style: none; }
     border-radius: 14px;
     padding: 28px 24px;
     transition: border-color 0.2s, transform 0.2s;
+    text-align: center;
 }
 .why-card:hover { border-color: var(--red); transform: translateY(-4px); }
 .why-icon { font-size: 24px; margin-bottom: 10px; }
@@ -1021,7 +1015,8 @@ ul { list-style: none; }
     .hiw-slide[data-step="0"] { background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('images/How It Works Slide 01 (Enquire).png') center/cover; }
     .hiw-slide[data-step="1"] { background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('images/How It Works Slide 02 (Onboarding).png') center/cover; }
     .hiw-slide[data-step="2"] { background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('images/How It Works Slide 03 (Execute).png') center/cover; }
-    .hiw-slide[data-step="3"] { background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('images/How It Works Slide 04 (Review & Scale).png') center/cover; }    .hiw-slide-inner { visibility: visible; opacity: 1; padding: 0 20px; }
+    .hiw-slide[data-step="3"] { background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('images/How It Works Slide 04 (Review & Scale).png') center/cover; }    
+    .hiw-slide-inner { visibility: visible; opacity: 1; padding: 0 20px; }
     .hiw-big-num { font-size: 80px; margin-bottom: -16px; }
     .hiw-step-title { font-size: 36px; margin-bottom: 16px; }
     .hiw-step-desc { font-size: 15px; margin-bottom: 0; }
