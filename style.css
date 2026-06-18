@@ -147,7 +147,7 @@ ul { list-style: none; }
 }
 .saas-hero {
     background: linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)),
-                url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1600') center/cover no-repeat;
+                url('images/Hero Background.png') center/cover no-repeat;
     border-bottom: none;
 }
 .hero-container {
@@ -403,7 +403,7 @@ ul { list-style: none; }
 .ai-section {
     padding: 100px 0;
     background: linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)),
-                url('https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=1600') center/cover no-repeat;
+                url('images/AI Intelligence Section Background.png') center/cover no-repeat;
 }
 .ai-section .section-tag { background: rgba(255,255,255,0.15); color: #FFD240; }
 .ai-section .section-title { color: var(--white); }
@@ -465,10 +465,10 @@ ul { list-style: none; }
     inset: 0;
     background: rgba(0,0,0,0.55);
 }
-.hiw-bg[data-step="0"] { background-image: url('https://images.unsplash.com/photo-1560264280-88b68371db39?w=1600'); }
-.hiw-bg[data-step="1"] { background-image: url('https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1600'); }
-.hiw-bg[data-step="2"] { background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1600'); }
-.hiw-bg[data-step="3"] { background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600'); }
+.hiw-bg[data-step="0"] { background-image: url('images/How It Works Slide 01 (Enquire).png'); }
+.hiw-bg[data-step="1"] { background-image: url('images/How It Works Slide 02 (Onboarding).png'); }
+.hiw-bg[data-step="2"] { background-image: url('images/How It Works Slide 03 (Execute).png'); }
+.hiw-bg[data-step="3"] { background-image: url('images/How It Works Slide 04 (Review & Scale).png'); }
 .hiw-bg.active { opacity: 1; }
 .hiw-content { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2; }
 .hiw-step-wrap { width: 100%; height: 100%; position: relative; }
@@ -897,10 +897,10 @@ ul { list-style: none; }
         background-size: cover;
         background-position: center;
     }
-    .hiw-slide[data-step="0"] { background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1560264280-88b68371db39?w=800') center/cover; }
-    .hiw-slide[data-step="1"] { background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800') center/cover; }
-    .hiw-slide[data-step="2"] { background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800') center/cover; }
-    .hiw-slide[data-step="3"] { background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800') center/cover; }
+    .hiw-slide[data-step="0"] { background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('images/How It Works Slide 01 (.png') center/cover; }
+    .hiw-slide[data-step="1"] { background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('images/How It Works Slide 02 (.png') center/cover; }
+    .hiw-slide[data-step="2"] { background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('images/How It Works Slide 03 (.png') center/cover; }
+    .hiw-slide[data-step="3"] { background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('images/How It Works Slide 04 (.png') center/cover; }
     .hiw-slide-inner { visibility: visible; opacity: 1; padding: 0 20px; }
     .hiw-big-num { font-size: 80px; margin-bottom: -16px; }
     .hiw-step-title { font-size: 36px; margin-bottom: 16px; }
